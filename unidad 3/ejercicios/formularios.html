@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Formularios HTML">
+    <meta name="keywords" content="tablas">
+    <link rel="shortcut icon" href="./imagenes/indicepaginas.png">
+    <title>Formularios</title>
+    <style>
+        html {
+          min-height: 100%;
+        }
+        body {
+          background: -webkit-linear-gradient(to bottom, #a8ff78, #78ffd6);
+          background: -o-linear-gradient(to bottom, #a8ff78, #78ffd6);
+          background: -moz-linear-gradient(to bottom, #a8ff78, #78ffd6);
+          background:linear-gradient(to bottom, #a8ff78, #78ffd6);
+          background-color: (to bottom, #a8ff78, #78ffd6);
+        }
+      </style>
+</head>
+<body>
+    <section>
+        <h1>Formulario 1</h1>
+        <form name="Formulario" method="get" action="procesa.php">
+        <p><label>Nombre<input type="text"/></label></p>
+        <p><label>Edad<input type="number"></label></p>
+        <p><input type="submit" value="Enviar"/></p>
+        </form>
+    </section>
+    <section>
+        <form name="Formulario 2" method="get" action="procesa.php">
+        <p><label for="listado">Nacionalidad</label></p>
+        <select name="nacionalidad" id="listado">
+            <p>
+                <option value="Española">Española</option>
+                <option value="Árabe">Árabe</option>
+                <option value="Alemana">Alemana</option>
+                <option value="Colombiana">Colombiana</option>
+                <option value="Rusa">Rusa</option>
+            </p>
+            <p><input type="submit" value="Enviar"/></p>
+        </select>
+        </form>
+    </section>
+    <p><a href="../ejercicioshtml.html">Atrás</a></p>
+</body>
+</html>
