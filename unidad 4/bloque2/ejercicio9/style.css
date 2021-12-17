@@ -1,0 +1,9 @@
+section {
+    background: lightgrey;
+    width: 750px;
+  }
+  
+  p:first-letter {
+    color: red;
+    font-size: xx-large;
+  }

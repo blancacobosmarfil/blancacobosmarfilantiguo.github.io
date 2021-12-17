@@ -1,0 +1,10 @@
+#neon {
+    color: white;
+    text-shadow: 3px 1px 3px green;
+    font-size: 40px;
+    padding: 30px;
+  }
+  
+  body {
+    background-color: #b4b4b4;
+  }

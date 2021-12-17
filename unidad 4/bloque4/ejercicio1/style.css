@@ -1,0 +1,18 @@
+.imagen {
+    width: 350px;
+    border: 2px solid black;
+    padding: 40px;
+    margin: 30px;
+    background-image: url("../imagenes/a3bb8641b56951361a7e0faf89024e47.jpg");
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .nada {
+    width: 350px;
+    border: 2px solid black;
+    padding: 40px;
+    margin: 30px;
+    text-align: center;
+    font-size: 30px;
+  }

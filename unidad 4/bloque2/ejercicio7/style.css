@@ -1,0 +1,10 @@
+section {
+    background: lightgrey;
+    width: 750px;
+  }
+  
+  p[id="p2"] {
+    font-family: verdana;
+    font-style: italic;
+    font-size: 1.2em;
+  }

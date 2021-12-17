@@ -1,0 +1,15 @@
+.horario{
+	border : solid orangered;
+	margin-bottom : 20px;
+	width : 500px;
+	height : 100px;
+  font-family: sans-serif;
+}
+
+.horario td{
+  background-color: rgb(95, 95, 211);
+}
+
+.horario th{
+  background-color: rgb(153, 255, 0);
+}

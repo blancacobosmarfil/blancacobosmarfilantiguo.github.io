@@ -1,0 +1,16 @@
+.box {
+    padding: 30px;
+    width: 300px;
+    border: 1px solid gray;
+    color: #6A6A6A;
+    background-image: url("../imagenes/img_petalos-colores.jpg");
+    text-align: center;
+}
+
+p {
+  padding: 40px;
+  width: 210px;
+  border: 1px solid gray;
+  background-color: orange;
+  opacity: 0.5;
+}

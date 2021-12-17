@@ -1,0 +1,8 @@
+section {
+    background: lightgrey;
+    width: 750px;
+  }
+  
+  p[id="p2"]:first-line {
+    color: red;
+  }

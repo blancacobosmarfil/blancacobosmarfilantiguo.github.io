@@ -1,0 +1,10 @@
+body {
+    background-image: url('../../bloque4/imagenes/2d1526265dd725877a09736de9349365.jpg');
+  }
+  
+  .box {
+      font-size: 5vw;
+      padding: 10vw;
+      border: solid;
+      background: linear-gradient(blue, transparent, purple);
+  }

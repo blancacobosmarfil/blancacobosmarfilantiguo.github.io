@@ -1,0 +1,12 @@
+section {
+    background: lightgrey;
+    width: 750px;
+  }
+  
+  h1::before {
+    content: url("http://www.gifs-paradise.com/animations/animated-gifs-smileys-235.gif")  ;
+  }
+  
+  h1::after {
+    content: url("http://www.gifs-paradise.com/animations/animated-gifs-smileys-235.gif");
+  }
