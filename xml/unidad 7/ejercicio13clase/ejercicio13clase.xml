@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<personas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xsi:noNamespaceSchemaLocation="ejercicio13clase.xsd">
+
+    <persona>
+        <nombre>Pedro</nombre>
+        <edad>27</edad>
+        <pais>España</pais>
+        <telefono>608345908</telefono>
+    </persona>
+    <persona>
+        <nombre>Pedro</nombre>
+        <edad>27</edad>
+        <pais>España</pais>
+        <telefono>608345908</telefono>
+    </persona>

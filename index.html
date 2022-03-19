@@ -15,20 +15,75 @@
         background:linear-gradient(to bottom, #a8ff78, #78ffd6);
         background-color: (to bottom, #a8ff78, #78ffd6);
       }
+      footer {
+	      padding-top: 1%;
+	      padding-bottom: 0.3%; 
+	      margin-top: 1%;
+	      background: -webkit-linear-gradient(to bottom, #a8ff78, #78ffd6);
+	      color:rgb(0, 0, 0);
+      }
+      header {
+	      background-color:  -webkit-linear-gradient(to bottom, #a8ff78, #78ffd6);;
+	      padding: 2%;
+      }
+      #navmez li {
+        display: inline;
+      }
+
+#navmez ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navmez a {
+  background: rgb(60, 255, 0);
+  border: 2px solid rgb(0, 255, 157);
+  padding: 1em;
+  text-decoration: none;
+}
+
+#navmez a:hover {
+  color: #fff;
+  background: rgb(30, 255, 0);
+  border: 2px solid #06c;
+  text-decoration:none;
+}
     </style>
   </head>
     <body>
+      <center>
         <font face="Calibri">
-        <h1><img src="https://image.flaticon.com/icons/png/512/394/394127.png" width="35">Blanca Cobos Marfil</h1>
+        <h1>Blanca Cobos Marfil</h1>
         <h2>Lenguaje de marcas</h2>
-        <img src="./cp/images/foto.jpeg" width="150" alt="Foto">
-        <u><h3>Enlaces</h3></u>
-        <ul type=circle>
-          <li><p><a href="cp/Index.html">Córdoba Patrimonio</a></p></li>
-          <li><p><a href="recetas.html">Recetas de la abuela</a></p></li>
-          <li><p><a href="unidad 3/index.html">Unidad 3 (HTML)</a></p></li>
-          <li><p><a href="./unidad 4/index.html">Unidad 4 (CSS)</a></p></li>
-        </ul>
+      </center>
+        <center>
+          <img src="./cp/images/foto.jpeg" alt="Foto" width="150px">
+          <br>
+        <header>
+          <ul id="navmez">
+              <li><a href="./cp/Index.html">Córdoba patrimonio</a></li>
+              <li><a href="./recetas.html">Recetas de la abuela</a></li>
+              <li><a href="./unidad 3/index.html">Unidad 3 (HTML)</a></li>
+          </ul>
+          <br><br>
+          <ul id="navmez">
+              <li><a href="./unidad 4/index.html">Unidad 3 (CSS)</a></li>
+              <li><a href="./css (2)/index.html">Unidad 5 y 6 (CSS II)</a></li>
+              <li><a href="xml/index.html">Unidad 7 (XML)</a></li>
+          </ul>
+      </header>
+    </center>
+        <center>
+        <footer class="container-fluid text-center">
+          <h5>Lenguaje de marcas I.E.S. Gran Capitán 
+          <br> © Blanca Cobos Marfil
+          || Todos los derechos reservados
+          </br> Córdoba, España. 2021</h5>
+          </br>
+        </footer>
+      </center>
       </font>
+      
     </body>
 </html>

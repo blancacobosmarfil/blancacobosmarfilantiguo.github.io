@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main {
+            display: flex;
+            min-height: calc(100vh -30vh);
+        }
+        header, footer {
+            background: grey;
+            height: 15vh;
+        }
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        #main > article {
+            flex: 1;
+        }
+        #main > nav,
+        #main > aside {
+            flex: 0 0 20vh;
+            background: beige;
+        }
+        #main > nav {
+            order: -1;
+        }
+        body {
+            margin: 0;
+        }
+        header, footer {
+            background: grey;
+            height: 15vh;
+        }
+        header, footer, article, nav, aside {
+            padding: 1cm;
+        }
+    </style>
+</head>
+<body>
+    <header>Encabezado</header>
+    <div id="main">
+        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, distinctio similique. Aut, molestias ipsum. Aliquam deserunt velit sequi asperiores eos dolorum similique veritatis autem veniam? Illum numquam praesentium libero magnam!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, consequuntur eaque error totam consequatur impedit, inventore ab velit cupiditate possimus distinctio quisquam sed cumque, laboriosam perspiciatis doloribus rerum optio? Voluptatibus?
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum quod placeat praesentium eligendi alias culpa eos officia rem, perferendis velit omnis non at distinctio et eveniet veniam animi error in.
+        </article>
+        <nav>Nav</nav>
+        <aside>Aside</aside>
+    </div>
+    <footer>Footer</footer>
+
+</body>
+</html>

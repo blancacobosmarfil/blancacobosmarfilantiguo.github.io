@@ -1,23 +1,118 @@
 <!DOCTYPE html>
-<html lang="ES">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../cp/images/indicepaginas.png">
-    <title>Tarta de Chocolate</title>
-    <style>
-      html {
-        min-height: 100%;
-      }
-      body {
-        background: -webkit-linear-gradient(to bottom, #a8ff78, #78ffd6);
-        background: -o-linear-gradient(to bottom, #a8ff78, #78ffd6);
-        background: -moz-linear-gradient(to bottom, #a8ff78, #78ffd6);
-        background:linear-gradient(to bottom, #a8ff78, #78ffd6);
-        background-color: (to bottom, #a8ff78, #78ffd6);
-      }
-    </style>
+<html lang=es>
+    <head>
+        <title>Las Recetas de la abuela</title>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="./imagenes/indicepaginas.png">
+        <style>
+            body {
+            display: grid;
+            grid-template-areas: "header header header"
+                                 "article article aside"
+                                 "article article aside"
+                                 "article article aside"
+                                 "footer footer footer";
+            grid-template-rows: 10vw 37vw;
+            grid-template-columns: 80vw 5fr 20vw;
+            grid-gap: 0.5vw;
+            height: 100%;
+            margin: 0;
+            }
+            header {
+            background-color: lightsalmon
+            }
+            article {
+                background-color: papayawhip;
+                padding-left: 5vw;
+                padding-right: 2vw;
+                padding-bottom: 2vw;
+            }
+            aside {
+                background-color: lightsalmon;
+                text-align: center;
+            }
+            footer {
+                background-color: lightsalmon;
+                text-align: center;
+                font-size: 1.5vw;
+            }
+            #header {
+                grid-area: header;
+            }
+            #article {
+                grid-area: article;
+            }
+            #aside {
+                grid-area: aside;
+            }
+            #footer {
+                grid-area: footer;
+                font-family: abuela;
+            }
+            .formaleft {
+                shape-image-threshold: 0.5;
+                margin-left: 20px;
+                float: left;
+                height: 8vw;
+            }
+            h1 {
+                text-align: center;
+                font-family: abuela;
+                font-size: 3vw;
+            }
+            h2{
+                font-family: abuela;
+                text-align: center;
+                font-size: 2vw;
+            }
+            h3 {
+                font-family: abuela;
+                font-size: 2vw;
+            }
+            h4 {
+                font-family: abuela;
+                text-align: center;
+                font-size: 1.5vw;
+            }
+            p {
+                font-size: 1.5vw;
+            }
+            li {
+                font-size: 1.5vw;
+            }
+            a {
+                cursor: pointer;
+                transition: padding 250ms ease-in-out;
+                text-align: center;
+            }
+            a:hover {
+                padding: 0.5vw;
+                transition: all 0.3s ease;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            a {
+                display: inline-block;
+                border: 1px solid black;
+                padding: 0.25vw;
+                background-color: lightsalmon;
+                color: white;
+                text-decoration: none;
+                font-family: abuela;
+            }  
+            @font-face {
+                font-family:abuela;
+                src: url(./imagenes/Courgette-Regular.ttf);
+            }
+            @media (max-width: 768px) {
+                img.principal {
+                    height: 25vw;
+                }
+            }
+        </style>
 </head>
 <body>
   <font face= "Calibri">

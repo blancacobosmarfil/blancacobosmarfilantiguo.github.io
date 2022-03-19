@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE relacion SYSTEM "./ejercicio9clase.dtd">
+<relacion>
+  <persona carnet="B" sexo="hombre">
+   <nombre>Alvaro</nombre>
+   <email></email>
+   <parentesco tutor-legal="A" hermano="C" />
+  </persona>
+  <persona carnet="A" sexo="mujer">
+   <nombre>Antonia</nombre>
+   <email></email>
+   <parentesco tutor-legal="B" hermano="A" />
+  </persona>
+  <persona carnet="C" sexo="mujer">
+   <nombre>Lola</nombre>
+   <email></email>
+   <parentesco tutor-legal="A" hermano="B C"/>
+  </persona>
+</relacion>

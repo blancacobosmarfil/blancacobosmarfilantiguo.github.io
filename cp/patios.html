@@ -8,6 +8,11 @@
         <meta name="keywords" content="Turismo, patrimonio, viajes">
         <!--link rel="stylesheet" href="estilos.css"-->
         <style>
+            .titulo {
+                border-bottom: 10px;
+                border-style: groove;
+                border-color: green;
+            }
             html {
               min-height: 100%;
             }
@@ -18,22 +23,60 @@
               background:linear-gradient(to bottom, #a8ff78, #78ffd6);
               background-color: (to bottom, #a8ff78, #78ffd6);
             }
+            footer {
+	      padding-top: 1%;
+	      padding-bottom: 0.3%; 
+	      margin-top: 1%;
+	      background: -webkit-linear-gradient(to bottom, #a8ff78, #78ffd6);
+	      color:rgb(0, 0, 0);
+      }
+      header {
+	      background-color:  -webkit-linear-gradient(to bottom, #a8ff78, #78ffd6);;
+	      padding: 2%;
+      }
+      #navmez li {
+        display: inline;
+      }
+
+#navmez ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navmez a {
+  background: rgb(60, 255, 0);
+  border: 2px solid rgb(0, 255, 157);
+  padding: 1em;
+  text-decoration: none;
+}
+
+#navmez a:hover {
+  color: #fff;
+  background: rgb(30, 255, 0);
+  border: 2px solid #06c;
+  text-decoration:none;
+}
           </style>
     </head>
 <body>
     <font face="Calibri">
-    <header>
-        <center><h1 id="top">Córdoba Ciudad Patrimonio</h1></center><hr>    
-     </header>
+        <header>
+            <center><h1 id="top" class="titulo">Córdoba Ciudad Patrimonio</h1></center>
+       </header>
     <nav>
-        <ul type="a">
-            <li><a href="Index.html">Inicio</a></li>
-            <li><a href="mezquita.html">La Mezquita</a></li>
-            <li><a href="cascohistorico.html">Casco Histórico</a></li>
-            <li><a href="patios.html">Los Patios</a></li>
-            <li><a href="medinaazahara.html">Medina Azahara</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
+        <header>
+            <center>
+                <ul id="navmez">
+                    <li><a href="./cascohistorico.html">Cásco histórico</a></li>
+                    <li><a href="./medinaazahara.html">Medina Azahara</a></li>
+                    <li><a href="./mezquita.html">La Mezquita Catedral</a></li>
+                    <li><a href="./patios.html">Los patios</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                    <li><a href="../Index.html">Página principal</a></li>
+                </ul>
+            </center>
+        </header>
         <main>
             <section>
                 <article>
@@ -68,15 +111,15 @@
             </section>
             <aside>
                 <center><a href="#top"><img src="images/inicio.png" height="100"></a></center>
-                <p>Agenda</p>
-                <p>Publicidad</p>
-            </aside>
-        </main>
-        <footer>
-            &copy;Todos los derechos reservados
-        </footer>
-        <p><i>a21comabl@iesgrancapitan.org</i></p>
-        <p><a href="../Index.html">Atrás</a></p>
+                <center>
+                    <footer class="container-fluid text-center">
+                      <h5>Lenguaje de marcas I.E.S. Gran Capitán 
+                      <br> © Blanca Cobos Marfil
+                      || Todos los derechos reservados
+                      </br> Córdoba, España. 2021</h5>
+                      </br>
+                    </footer>
+                  </center>
     </font>
     </body>
 </html>
