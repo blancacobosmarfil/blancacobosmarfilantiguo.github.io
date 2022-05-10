@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="presentacion.xsl"?>
+<curriculum>
+    <datos>
+        <nombre>Blanca</nombre>
+        <apellidos>Cobos Marfil</apellidos>
+        <email>a21comabl@iesgrancapitan.org</email>
+        <foto>img.jpg</foto>
+    </datos>
+    <rrss>
+        <linkedin>https://es.linkedin.com/in/blancacobos</linkedin>
+        <twitter></twitter>
+    </rrss>
+    <formacion>
+        <superior>Bachillerato Tecnológico</superior>
+        <superior> CFGS ASIR</superior>
+    </formacion>
+    <idiomas>
+        <ingles>
+            <oral>B2</oral>
+            <escritura>C1</escritura>
+            <comprension>C1</comprension>
+        </ingles>
+        <francés>
+            <oral>B1</oral>
+            <escritura>C1</escritura>
+            <comprension>B2</comprension>
+        </francés>
+    </idiomas>
+    <experiencia>
+        <trabajo fechainicio="02/04/2018" fechafinal="23/10/2019">Portero de Real Madrid</trabajo>
+        <trabajo fechainicio="02/04/2016" fechafinal="23/10/2017">Delantero del Barça</trabajo>
+    </experiencia>
+</curriculum>

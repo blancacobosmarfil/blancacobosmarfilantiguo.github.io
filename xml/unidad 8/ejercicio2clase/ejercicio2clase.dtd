@@ -1,0 +1,6 @@
+<!ELEMENT root (employees,companies)>
+<!ELEMENT employees (#PCDATA)>
+<!ELEMENT employees (#PCDATA)>
+<!ELEMENT companies (#PCDATA)>
+<!ATTLIST employee id ID #REQUIRED>
+<!ATTLIST company id ID #REQUIRED>

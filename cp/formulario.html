@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios HTML</title>
+    <link rel="shortcut icon" href="./imagenes/indicepaginas.png">
+    <style>
+        .titulo {
+            border-bottom: 10px;
+            border-style: groove;
+            border-color: green;
+        }
+        html {
+          min-height: 100%;
+        }
+        body {
+          background: -webkit-linear-gradient(to bottom, #a8ff78, #78ffd6);
+          background: -o-linear-gradient(to bottom, #a8ff78, #78ffd6);
+          background: -moz-linear-gradient(to bottom, #a8ff78, #78ffd6);
+          background:linear-gradient(to bottom, #a8ff78, #78ffd6);
+          background-color: (to bottom, #a8ff78, #78ffd6);
+        }
+        footer {
+      padding-top: 1%;
+      padding-bottom: 0.3%; 
+      margin-top: 1%;
+      background: -webkit-linear-gradient(to bottom, #a8ff78, #78ffd6);
+      color:rgb(0, 0, 0);
+  }
+  header {
+      background-color:  -webkit-linear-gradient(to bottom, #a8ff78, #78ffd6);;
+      padding: 2%;
+  }
+  #navmez li {
+    display: inline;
+  }
+
+#navmez ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+#navmez a {
+background: rgb(60, 255, 0);
+border: 2px solid rgb(0, 255, 157);
+padding: 1em;
+text-decoration: none;
+}
+
+#navmez a:hover {
+color: #fff;
+background: rgb(30, 255, 0);
+border: 2px solid #06c;
+text-decoration:none;
+}
+      </style>
+</head>
+<body>
+<font face="Calibri">
+<header>
+     <center><h1 id="top" class="titulo">Formulario</h1></center>
+</header>
+<nav>
+    <header>
+        <center>
+            <ul id="navmez">
+              <li><a href="../inicio.html">Página principal</a></li>
+              <li><a href="./cascohistorico.html">Cásco histórico</a></li>
+              <li><a href="./medinaazahara.html">Medina Azahara</a></li>
+              <li><a href="./mezquita.html">La Mezquita Catedral</a></li>
+              <li><a href="./patios.html">Los patios</a></li>
+              <li><a href="./contacto.html">Contacto</a></li>
+              <li><a href="./formulario.html">Comentarios</a></li>
+            </ul>
+        </center>
+    </header>
+  </center>
+    <font face="Calibri">
+    <form name="miform" method="post" action="curriculum.php">
+      <p><b>Datos Personales:</b></p>    
+      <p><input type="text" name="nombre" value="" placeholder="Nombre" size="20" maxlength="30"/></p>
+      <p><input type="text" name="apellidos" value="" placeholder="Apellidos" size="50" maxlength="80"/></p>
+      <p><input type="text" name="teléfono" value="" placeholder="Teléfono" size="15" maxlength="9"/></p>
+      <p><input type="text" name="direccion" value="" placeholder="Dirección" size="50" maxlength="100"/></p>  
+      <p><input type="text" name="codigo" value="" placeholder="Código Postal" size="12" maxlength="5"/></p>    
+      <p><input type="text" name="localidad" value="" placeholder="Localidad" size="25" maxlength="50"/></p> 
+      <p><input type="text" name="dni" value="" placeholder="DNI" size="10" maxlength="9"/></p>
+      <p><b>Fecha de Nacimiento:</b></p>
+      <input type="date" name="fecha" value="" placeholder="Fecha Nacimiento" size="15" maxlength="10"/></p>   
+      <p><label><b>Sexo</b></label></p> 
+      <p><label><input type="radio" name="sexo" value="hombre">Hombre</label></p>
+      <p><label><input type="radio" name="sexo" value="mujer" checked>Mujer</label></p>      
+      <p><b>Comentario</label></b>
+      <p><textarea name="texto" rows="10" cols="30"></textarea></p>
+      <input type="submit" value="Enviar"> 
+      <p><input type="submit" name="enviar" value="Guardar cambios" /><input type="reset" name="limpiar" value="Borrar los datos introducidos" /></p>
+    </form>  
+    </font>  
+  </body>
+</html>
