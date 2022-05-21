@@ -1,21 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<reyes>
-    <pais="Francia">
-        <nombre>Isabel II</nombre>
+<?xml version = "1.0" encoding = "UTF-8"?>
+<monarquia>
+    <pais>
+        <nombre>Gran Bretaña</nombre>
         <capital>Londres</capital>
-        <genero>Femenino</genero>
-        <conyuge>-</conyuge>
+        <reina>Isabel II</reina>
     </pais>
-    <pais="Francia">
-        <nombre>-</nombre>
-        <capital>París</capital>
-        <genero>-</genero>
-        <conyuge>-</conyuge>
+    <pais>
+        <nombre>Francia</nombre>
+        <capital>Paris</capital>
     </pais>
-    <pais="Noruega">
-        <nombre>Sonia</nombre>
+    <pais>
+        <nombre>Noruega</nombre>
         <capital>Oslo</capital>
-        <genero>Femenino</genero>
-        <conyuge>Harald V de Noruega</conyuge>
+        <rey>Herald V</rey>
+        <reina>Sonia</reina>
     </pais>
-</reyes>
+</monarquia>

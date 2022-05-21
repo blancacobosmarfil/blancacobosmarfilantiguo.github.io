@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title></title>
-
+<entry>
+    <title>Ejercicio 1</title>
+    <link href="https://blancacobosmarfil.github.io/xml/unidad%207/ejercicio2clase/index.xml" />
+    <summary>Ejercicio 1 XML</summary>
+  </entry>
   <entry>
-    <title>Ejercicio 3 clase.html</title>
-    <link href="https://blancacobosmarfil.github.io/css%20(2)/unidad%205/ejercicio3/clase3.html" />
-    <summary>Ejercicios</summary>
+    <title>Ejercicio 2</title>
+    <link href="https://blancacobosmarfil.github.io/xml/unidad%207/ejercicio4clase/index.xml" />
+    <summary>Ejercicio 2 XML</summary>
+  </entry>
+  <entry>
+    <title>Ejercicio 3</title>
+    <link href="https://blancacobosmarfil.github.io/xml/unidad%207/ejercicio5clase/ejercicio5clase.xml" />
+    <summary>Ejercicio 3 XML</summary>
+  </entry>
+  <entry>
+    <title>Ejercicio 4</title>
+    <link href="https://blancacobosmarfil.github.io/xml/unidad%207/ejercicio7clase/ejercicio7clase.xml" />
+    <summary>Ejercicio 4 XML</summary>
+  </entry>
+  <entry>
+    <title>Ejercicio 5</title>
+    <link href="https://blancacobosmarfil.github.io/xml/unidad%207/ejercicio8clase/ejercicio8clase.xml" />
+    <summary>Ejercicio 5 XML</summary>
+  </entry>
+  <entry>
+    <title>Ejercicio 6</title>
+    <link href="https://blancacobosmarfil.github.io/xml/unidad%207/ejercicio11clase/ejercicio11clase.xml" />
+    <summary>Ejercicio 6 XML</summary>
   </entry>
 </feed>

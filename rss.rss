@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-<title>Recetas de la abuela</title>
-<link>https://blancacobosmarfil.github.io/recetas.html</link>
-<description>Recetas de la abuela</description>
+    <title>Recetas de la abuela</title>
+    <link>https://blancacobosmarfil.github.io/recetas.html</link>
+    <description>Recetas de la abuela</description>
 <item>
-<title>Mezquita Catedral de Córdoba</title>
-<link>https://blancacobosmarfil.github.io/cp/mezquita.html</link>
-<description>Historia e información de la Mezquita de Córdoba</description>
+    <title>Mezquita Catedral de Córdoba</title>
+    <link>https://blancacobosmarfil.github.io/cp/mezquita.html</link>
+    <description>Historia e información de la Mezquita de Córdoba</description>
+</item>
+<item>
+    <title>Ejercicios HTML Blanca Cobos</title>
+    <link>https://blancacobosmarfil.github.io/unidad%203/ejercicios/formularios.html</link>
+    <description>Ejercicio HTML Formulario</description>
+</item>
+<item>
+    <title>Ejercicios CSS Blanca Cobos</title>
+    <link>https://blancacobosmarfil.github.io/unidad%204/bloque11/ejercicio2/index.html</link>
+    <description>Ejercicio CSS Cambio de color de formas geométricas</description>
 </item>
 </channel>
 </rss>
